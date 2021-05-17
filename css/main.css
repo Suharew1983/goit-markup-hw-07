@@ -15,13 +15,23 @@
 }
 
 html {
+<<<<<<< Updated upstream
   box-sizing: border-box;
+=======
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+>>>>>>> Stashed changes
 }
 
 *,
 *::after,
 *::before {
+<<<<<<< Updated upstream
   box-sizing: inherit;
+=======
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+>>>>>>> Stashed changes
 }
 
 /*font-family: 'Raleway', sans-serif;
@@ -94,6 +104,10 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: color var(--animation);
+>>>>>>> Stashed changes
   transition: color var(--animation);
 }
 
@@ -104,19 +118,42 @@ img {
 
 /*style nav*/
 .container__nav {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> Stashed changes
   margin: 0;
   margin-left: auto;
   margin-right: auto;
 }
 
 .main-nav {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
 }
 
 .site-nav {
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> Stashed changes
   display: flex;
   margin-left: 93px;
 }
@@ -134,6 +171,10 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: color var(--animation);
+>>>>>>> Stashed changes
   transition: color var(--animation);
 }
 
@@ -146,6 +187,10 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: color var(--animation);
+>>>>>>> Stashed changes
   transition: color var(--animation);
   color: var(--accent-color);
 }
@@ -167,6 +212,11 @@ img {
 }
 
 .auth-nav {
+<<<<<<< Updated upstream
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> Stashed changes
   display: flex;
 }
 
@@ -179,13 +229,26 @@ img {
 }
 
 .auth-nav__link {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> Stashed changes
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: color var(--animation);
+>>>>>>> Stashed changes
   transition: color var(--animation);
 }
 
@@ -217,6 +280,10 @@ img {
   padding-bottom: 200px;
   text-align: center;
   background: var(--basement-color);
+<<<<<<< Updated upstream
+=======
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/herro-img.jpg);
+>>>>>>> Stashed changes
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herro-img.jpg);
   max-width: 1600px;
   background-size: cover;
@@ -263,9 +330,21 @@ img {
 }
 
 .features-list__container {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+>>>>>>> Stashed changes
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -274,6 +353,11 @@ img {
 }
 
 .features-list {
+<<<<<<< Updated upstream
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> Stashed changes
   display: flex;
 }
 
@@ -314,6 +398,11 @@ img {
 }
 
 .we-do-list {
+<<<<<<< Updated upstream
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> Stashed changes
   display: flex;
 }
 
@@ -331,9 +420,21 @@ img {
 }
 
 .we-do-list__container {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+>>>>>>> Stashed changes
   position: absolute;
   width: 370px;
   height: 70px;
@@ -371,15 +472,29 @@ img {
 }
 
 .team-list {
+<<<<<<< Updated upstream
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> Stashed changes
   display: flex;
   padding-left: 0;
 }
 
 .team-list__card {
+<<<<<<< Updated upstream
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+=======
+  -ms-flex-preferred-size: calc(100% / 4 - 30px);
+      flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+>>>>>>> Stashed changes
   border-radius: 4px;
 }
 
@@ -409,6 +524,11 @@ img {
 }
 
 .social-icons {
+<<<<<<< Updated upstream
+=======
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+>>>>>>> Stashed changes
   display: inline-flex;
   list-style: none;
 }
@@ -418,17 +538,37 @@ img {
 }
 
 .social-icons__link {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  -webkit-transition: fill var(--animation), background-color var(--animation);
+>>>>>>> Stashed changes
   transition: fill var(--animation), background-color var(--animation);
 }
 
 .social-icons__svg {
   fill: var(--socials-icon);
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: fill var(--animation);
+>>>>>>> Stashed changes
   transition: fill var(--animation);
 }
 
@@ -461,6 +601,11 @@ img {
 }
 
 .clients__list {
+<<<<<<< Updated upstream
+=======
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+>>>>>>> Stashed changes
   display: inline-flex;
   list-style: none;
 }
@@ -470,14 +615,30 @@ img {
 }
 
 .clients-list__link {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+>>>>>>> Stashed changes
   width: 170px;
   height: 92px;
   border: 1px solid;
   border-radius: 4px;
   border-color: var(--socials-icon);
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: fill var(--animation), border-color var(--animation);
+>>>>>>> Stashed changes
   transition: fill var(--animation), border-color var(--animation);
 }
 
@@ -488,6 +649,10 @@ img {
 
 .clients-list__image {
   fill: var(--socials-icon);
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: fill var(--animation);
+>>>>>>> Stashed changes
   transition: fill var(--animation);
 }
 
@@ -513,8 +678,17 @@ img {
 }
 
 .buttons-list {
+<<<<<<< Updated upstream
   display: flex;
   justify-content: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+>>>>>>> Stashed changes
 }
 
 .main-content__buttons-list {
@@ -537,21 +711,41 @@ img {
   font-size: 16px;
   line-height: 1.62;
   padding: 6px 22px;
+<<<<<<< Updated upstream
   transition: color var(--animation), background-color var(--animation), box-shadow var(--animation);
+=======
+  -webkit-transition: color var(--animation), background-color var(--animation), -webkit-box-shadow var(--animation);
+  transition: color var(--animation), background-color var(--animation), -webkit-box-shadow var(--animation);
+  transition: color var(--animation), background-color var(--animation), box-shadow var(--animation);
+  transition: color var(--animation), background-color var(--animation), box-shadow var(--animation), -webkit-box-shadow var(--animation);
+>>>>>>> Stashed changes
 }
 
 .buttons-list__button:hover,
 .buttons-list__button:focus {
   color: var(--wite-text-color);
   background-color: var(--accent-color);
+<<<<<<< Updated upstream
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+=======
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+>>>>>>> Stashed changes
 }
 
 .list {
   padding-left: 0;
   list-style: none;
+<<<<<<< Updated upstream
   display: flex;
   flex-wrap: wrap;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+>>>>>>> Stashed changes
 }
 
 .main-content__list {
@@ -560,7 +754,12 @@ img {
 }
 
 .list__card {
+<<<<<<< Updated upstream
   flex-basis: calc(100% / 3 - 30px);
+=======
+  -ms-flex-preferred-size: calc(100% / 3 - 30px);
+      flex-basis: calc(100% / 3 - 30px);
+>>>>>>> Stashed changes
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -572,17 +771,34 @@ img {
 .list__href {
   display: block;
   color: var(--primary-text-color);
+<<<<<<< Updated upstream
   transition: box-shadow var(--animation);
+=======
+  -webkit-transition: -webkit-box-shadow var(--animation);
+  transition: -webkit-box-shadow var(--animation);
+  transition: box-shadow var(--animation);
+  transition: box-shadow var(--animation), -webkit-box-shadow var(--animation);
+>>>>>>> Stashed changes
 }
 
 .list__href:hover .overlay,
 .list__href:focus .overlay {
+<<<<<<< Updated upstream
   transform: translateY(0);
+=======
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+>>>>>>> Stashed changes
 }
 
 .list__href:hover,
 .list__href:focus {
+<<<<<<< Updated upstream
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+=======
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+>>>>>>> Stashed changes
 }
 
 .card__thumb {
@@ -591,7 +807,12 @@ img {
 }
 
 .card-content {
+<<<<<<< Updated upstream
   box-sizing: border-box;
+=======
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+>>>>>>> Stashed changes
   border: solid #eeeeee 1px;
   border-top: 0px;
   padding: 20px 24px;
@@ -604,8 +825,17 @@ img {
   height: 100%;
   width: 100%;
   background-color: rgba(33, 150, 243, 0.9);
+<<<<<<< Updated upstream
   transform: translateY(100%);
   transition: transform var(--animation);
+=======
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: -webkit-transform var(--animation);
+  transition: -webkit-transform var(--animation);
+  transition: transform var(--animation);
+  transition: transform var(--animation), -webkit-transform var(--animation);
+>>>>>>> Stashed changes
 }
 
 .overlay__text {
@@ -638,8 +868,17 @@ img {
 }
 
 .footer__block {
+<<<<<<< Updated upstream
   display: flex;
   align-items: baseline;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+>>>>>>> Stashed changes
   margin: 0;
   margin-left: auto;
   margin-right: auto;
@@ -669,16 +908,28 @@ img {
 
 .info__link-map {
   color: var(--wite-text-color);
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: color var(--animation);
+>>>>>>> Stashed changes
   transition: color var(--animation);
 }
 
 .info__link-mail {
   color: var(--address-text-color);
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: color var(--animation);
+>>>>>>> Stashed changes
   transition: color var(--animation);
 }
 
 .info__link-phone {
   color: var(--address-text-color);
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: color var(--animation);
+>>>>>>> Stashed changes
   transition: color var(--animation);
 }
 
@@ -696,6 +947,11 @@ img {
 }
 
 .footer-social-list {
+<<<<<<< Updated upstream
+=======
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+>>>>>>> Stashed changes
   display: inline-flex;
   list-style: none;
 }
@@ -705,13 +961,29 @@ img {
 }
 
 .footer-social-list__link {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+>>>>>>> Stashed changes
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: background-color var(--animation);
+>>>>>>> Stashed changes
   transition: background-color var(--animation);
 }
 
@@ -747,6 +1019,7 @@ img {
 }
 
 .footer-form__container {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
 }
@@ -754,13 +1027,37 @@ img {
 .footer-form__input {
   display: flex;
   align-items: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-form__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> Stashed changes
   width: 358px;
   height: 50px;
   left: 815px;
   top: 2787px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+<<<<<<< Updated upstream
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+=======
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+>>>>>>> Stashed changes
   border-radius: 4px;
   background: #2f303a;
   padding-left: 16px;
@@ -768,8 +1065,17 @@ img {
 }
 
 .footer-form__button {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> Stashed changes
   text-align: center;
   padding: 0;
   background-color: var(--accent-color);
@@ -783,8 +1089,17 @@ img {
 }
 
 .footer-form__btn-text {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> Stashed changes
   text-align: center;
   font-family: Roboto;
   font-style: normal;
@@ -797,8 +1112,17 @@ img {
 }
 
 .footer-form__btn-img {
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> Stashed changes
   text-align: center;
   margin-left: 10px;
 }
@@ -812,6 +1136,10 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   overflow: auto;
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+>>>>>>> Stashed changes
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -831,12 +1159,21 @@ img {
   padding: 40px 30px;
   background-color: #fff;
   border-radius: 4px;
+<<<<<<< Updated upstream
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%) scale(1);
+=======
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+>>>>>>> Stashed changes
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden .modal {
+<<<<<<< Updated upstream
   transform: translate(-50%, -50%) scale(0.5);
 }
 
@@ -844,6 +1181,22 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+          transform: translate(-50%, -50%) scale(0.5);
+}
+
+.button-close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+>>>>>>> Stashed changes
   position: absolute;
   width: 30px;
   height: 30px;
@@ -852,10 +1205,18 @@ img {
   border-radius: 50%;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: fill var(--animation);
+>>>>>>> Stashed changes
   transition: fill var(--animation);
 }
 
 .button-close__icon {
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: fill var(--animation);
+>>>>>>> Stashed changes
   transition: fill var(--animation);
 }
 
@@ -876,6 +1237,7 @@ img {
 }
 
 .modal-forms__container {
+<<<<<<< Updated upstream
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -892,11 +1254,57 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-forms__position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.modal-forms__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+>>>>>>> Stashed changes
   margin-bottom: 4px;
   padding: 0;
 }
 
 .modal-input {
+<<<<<<< Updated upstream
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> Stashed changes
   display: flex;
   position: relative;
 }
@@ -910,8 +1318,15 @@ img {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+<<<<<<< Updated upstream
   box-sizing: border-box;
   border-radius: 4px;
+=======
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-transition: border var(--animation);
+>>>>>>> Stashed changes
   transition: border var(--animation);
   margin-bottom: 10px;
 }
@@ -931,6 +1346,10 @@ img {
   display: inline-block;
   top: 11px;
   left: 12px;
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: fill var(--animation);
+>>>>>>> Stashed changes
   transition: fill var(--animation);
 }
 
@@ -938,10 +1357,19 @@ img {
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+<<<<<<< Updated upstream
   box-sizing: border-box;
   border-radius: 4px;
   padding: 12px;
   resize: none;
+=======
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px;
+  resize: none;
+  -webkit-transition: border var(--animation);
+>>>>>>> Stashed changes
   transition: border var(--animation);
   margin-bottom: 20px;
 }
@@ -951,6 +1379,21 @@ img {
   border: 1px solid var(--accent-color);
 }
 
+<<<<<<< Updated upstream
+=======
+.modal-forms__comment::-webkit-input-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-forms__comment:-ms-input-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-forms__comment::-ms-input-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+>>>>>>> Stashed changes
 .modal-forms__comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
@@ -994,6 +1437,10 @@ img {
   border: 2px solid var(--title-text-color);
   border-radius: 3px;
   vertical-align: middle;
+<<<<<<< Updated upstream
+=======
+  -webkit-transition: background-color var(--animation), border-color var(--animation);
+>>>>>>> Stashed changes
   transition: background-color var(--animation), border-color var(--animation);
 }
 
@@ -1001,14 +1448,24 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+<<<<<<< Updated upstream
   text-decoration-line: underline;
+=======
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+>>>>>>> Stashed changes
   color: var(--accent-color);
 }
 
 .modal-forms__button {
   width: 200px;
   height: 50px;
+<<<<<<< Updated upstream
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+=======
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+>>>>>>> Stashed changes
   background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 4px;
@@ -1016,8 +1473,17 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+<<<<<<< Updated upstream
   display: flex;
   align-items: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> Stashed changes
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--wite-text-color);

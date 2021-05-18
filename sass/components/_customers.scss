@@ -12,12 +12,11 @@
     margin-bottom: 50px;
     text-transform: none;
   }
-}
 
-.clients-list {
-  display: inline-flex;
-  list-style: none;
-
+  &__list {
+    display: inline-flex;
+    list-style: none;
+  }
   &__item:not(:last-child) {
     margin-right: 30px;
   }
@@ -45,9 +44,9 @@
   }
 }
 
-.clients-list__link:hover,
-.clients-list__link:focus {
-  .clients-list__image {
+.clients__link:hover,
+.clients__link:focus {
+  .clients__image {
     fill: var(--accent-color);
   }
 }

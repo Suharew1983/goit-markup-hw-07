@@ -1,20 +1,9 @@
 .features {
   padding-top: 94px;
-}
 
-.features-list__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: var(--tem-button-bacground);
-  border-radius: 4px;
-}
-
-.features-list {
-  display: flex;
+  &__list {
+    display: flex;
+  }
 
   &__item {
     position: relative;
@@ -33,5 +22,15 @@
     letter-spacing: 0.03em;
     margin-bottom: 10px;
     text-transform: uppercase;
+  }
+  &__thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--tem-button-bacground);
+    border-radius: 4px;
   }
 }

@@ -1,4 +1,4 @@
-.we-do-section {
+.we-do {
   padding-top: 94px;
   padding-bottom: 94px;
 
@@ -12,10 +12,10 @@
     margin-bottom: 50px;
     text-transform: none;
   }
-}
 
-.we-do-list {
-  display: flex;
+  &__list {
+    display: flex;
+  }
 
   &__item {
     position: relative;

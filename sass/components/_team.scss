@@ -13,11 +13,12 @@
     text-transform: none;
     color: var(--title-text-color);
   }
-}
 
-.team-list {
-  display: flex;
-  padding-left: 0;
+  &__list {
+    display: flex;
+    padding-left: 0;
+  }
+
   &__card {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
@@ -33,14 +34,13 @@
   &__image {
     position: relative;
   }
-}
 
-.description-team {
-  padding: 30px 32px;
-  text-align: center;
-  background-color: #ffffff;
-  border-radius: 4px;
-
+  &__thumb {
+    padding: 30px 32px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
   &__name {
     color: var(--title-text-color);
     text-transform: none;
